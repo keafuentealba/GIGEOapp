@@ -1,0 +1,43 @@
+.section { 
+    width: 100%;
+    height: 100%;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.section__card {
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    height: 30%;
+
+}
+
+.section__title {
+    width: 100%;
+    font-size: $large;
+    font-weight: $bold;
+    
+    
+}
+
+.section__card__image {
+    width: 100%;
+    height: auto; 
+    box-sizing: border-box; 
+}
+
+.section__card__place {
+    font-size: $x-large;
+
+}
+
+.section__card__date {
+   font-weight: $extra-light;
+   font-size: $small;
+   color: $quick-solver;
+
+}

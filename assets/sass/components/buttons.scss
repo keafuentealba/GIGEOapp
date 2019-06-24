@@ -1,0 +1,15 @@
+.header__buttons {
+    flex-direction: row;
+    align-items: center ;   
+
+}
+
+.button__blue {
+    background-color: $light-blue !important;
+    
+}
+
+.button__red {
+    background-color: $red !important;
+
+}
